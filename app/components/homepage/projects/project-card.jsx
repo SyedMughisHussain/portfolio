@@ -64,13 +64,13 @@ function ProjectCard({ project }) {
         <div className="flex justify-center text-sm md:text-lg">
           <a
             className="px-5 py-2 bg-[#1a1443] mr-2 flex items-center text-white rounded-md"
-            href=""
+            href={project.demo}
           >
             Demo
           </a>
           <a
             className="px-5 py-2 bg-[#1a1443] ml-2 flex items-center text-white rounded-md"
-            href=""
+            href={project.code}
           >
             Code
           </a>

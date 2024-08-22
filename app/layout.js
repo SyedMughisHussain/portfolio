@@ -6,7 +6,6 @@ import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
-import 'animate.css';
 import ScrollToTop from "./components/helper/scroll-to-top";
 const inter = Inter({ subsets: ["latin"] });
 

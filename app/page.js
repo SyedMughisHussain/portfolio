@@ -8,7 +8,6 @@ import Skills from "./components/homepage/skills";
 import HowDaysICode from "./components/homepage/how-i-code";
 
 export default async function Home() {
-
   return (
     <>
       <HeroSection />
@@ -17,8 +16,8 @@ export default async function Home() {
       <Skills />
       <Projects />
       <Education />
-      <HowDaysICode />
+      {/* <HowDaysICode /> */}
       <ContactSection />
     </>
-  )
-};
+  );
+}
